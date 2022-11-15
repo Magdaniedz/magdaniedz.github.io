@@ -1,0 +1,194 @@
+html {
+  height: 100%
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inconsolata', monospace;
+}
+
+.right-col, .left-col {
+  color: #fff;
+  text-align: center;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-col {
+  background-color: #003170;
+  color: #fff;
+  text-align: center;
+}
+
+.top-container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+nav {
+  position:fixed;
+  z-index: 1;
+  left: 0;
+  right:0;
+  font-size: 22px;
+}
+
+h1 {
+  font-size: 150px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 100px;
+}
+
+.experience h2 {
+color: #41ccc4;
+margin: 50px 0 50px 0;
+font-weight: bold;
+}
+
+.education h2 {
+  color: #003170;
+  margin: 50px 0 50px 0;
+  font-weight: bold;
+}
+
+.contact h2 {
+  color: #f3747b;
+  margin: 50px 0 50px 0;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 50px;
+}
+
+.experience h3 {
+color: #16736e;
+}
+
+.education h3 {
+  color: #306fbf;
+  font-weight: bold;
+}
+
+h1, h2, h3, h4, h5{
+  font-family: 'Prata', serif;
+  font-weight: normal;
+}
+
+.extra-gutters {
+  padding: 0 30px;
+}
+
+.right-aligned {
+  text-align: right;
+}
+
+a {
+  letter-spacing: 3px;
+  color: #2ce6dc;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+p {
+  line-height: 45px;
+}
+
+.navigation {
+text-align: center;
+font-family: 'Prata', serif;
+
+}
+.navigation li {
+  display: inline-block;
+  margin:0 15px;
+  color: #20c4bb;
+}
+
+.navigation li a{
+color: #20c4bb;
+text-decoration: none;
+
+}
+
+ul {
+list-style-type: none;
+line-height: 45px;
+}
+
+.right-col {
+  background-color: #75e3dd;
+}
+
+.scroll{
+color: #2864b1;
+text-align: center;
+}
+
+.experience {
+  color: #16736e;
+}
+
+.experience img{
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.education img {
+  margin-bottom: 30px;
+   display: block;
+   width: 50%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.contact img {
+width: 50%;
+margin: 0 0 0 100px;
+}
+
+.col-email p {
+  line-height: 10px;
+}
+
+.qr {
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Prata', serif;
+  color: #f4979c;
+  line-height: 1.5;
+  margin: 0 0 0 100px;
+}
+
+footer {
+  background-color: #f4979c;
+  min-height: 220px;
+  background-image: url(../img/socialmedia.svg);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.social-icon {
+  height: 60px;
+  margin: 10px 20px;
+}
+
+.icon-container {
+  text-align: center;
+}
