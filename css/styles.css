@@ -135,7 +135,7 @@ text-align: center;
   color: #16736e;
 }
 .hello .top-container: hover {
-    -fx-opacity: 0.3;
+  opacity: 0.3;
 }
 
 
