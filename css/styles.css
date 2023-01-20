@@ -134,10 +134,9 @@ text-align: center;
 .experience {
   color: #16736e;
 }
-.hello .top-container: hover {
-  opacity: 0.3;
+.top-container img:hover {
+  opacity:0.5;
 }
-
 
 .experience img{
   width: 100%;
