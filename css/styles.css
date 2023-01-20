@@ -134,6 +134,10 @@ text-align: center;
 .experience {
   color: #16736e;
 }
+.hello img hover {
+    -fx-opacity: 0.3;
+}
+
 
 .experience img{
   width: 100%;
